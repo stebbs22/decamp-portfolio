@@ -18,10 +18,7 @@
 
       <%= render 'shared/blog_nav' %>
 
-      <header class="blog-header py-3">
-        <h1 class="blog-title">My Blog</h1>
-        <%= link_to 'Write a New Blog', new_blog_path if logged_in?(:site_admin) %>
-      </header>
+      <%= render 'shared/blog_header' %>
 
     </div>
     
@@ -34,12 +31,8 @@
         <%= render 'shared/blog_sidebar' %>
 
       </div>
-      <footer class="blog-footer">
-        <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-        <p>
-          <a href="#">Back to top</a>
-        </p>
-      </footer>
+
+      <%= render 'shared/blog_footer' %>
 
       <%= source_helper("blog") %>
     </main>

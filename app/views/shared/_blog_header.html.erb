@@ -1,0 +1,4 @@
+<header class="blog-header py-3">
+    <h1 class="blog-title">My Blog</h1>
+    <%= link_to 'Write a New Blog', new_blog_path if logged_in?(:site_admin) %>
+</header>
