@@ -159,3 +159,16 @@ body {
 .app-footer {
   color: white;
 }
+
+.nba-news {
+  color: black;
+  margin: 20px;
+}
+
+.nba-news > .card {
+  padding: 30px;
+}
+
+.nba-news a {
+  color: green;
+}

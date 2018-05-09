@@ -9,4 +9,8 @@ class PagesController < ApplicationController
 
   def contact
   end
+
+  def nba_news
+    @tweets = SocialTool.twitter_search
+  end
 end
