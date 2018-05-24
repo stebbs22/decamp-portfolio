@@ -31,6 +31,7 @@ gem 'friendly_id', '~> 5.1.0'
 gem 'devise', '~> 4.4', '>= 4.4.3'
 gem 'jquery-rails'
 gem 'bootstrap', '~> 4.0.0'
+gem 'tebbs_devcamp_view_tool', git: 'https://github.com/stebbs22/tebbs_devcamp_view_tool'
 gem 'petergate', '~> 1.8', '>= 1.8.1'
 gem "font-awesome-rails"
 gem 'kaminari', '~> 1.1', '>= 1.1.1'

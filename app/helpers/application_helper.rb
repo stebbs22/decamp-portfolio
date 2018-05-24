@@ -16,6 +16,10 @@ module ApplicationHelper
 		end	
   end
 
+  def copyright_generator
+    TebbsDevcampViewTool::Renderer.copyright 'Steven Tebbs', 'All rights reserved'
+  end
+
   def nav_items
    [
      {
